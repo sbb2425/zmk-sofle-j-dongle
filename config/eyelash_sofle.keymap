@@ -180,14 +180,16 @@
             label = "NAV";
         };
 
-        layer_9 {
+        FN {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans   &trans   &trans   &trans    &trans  &trans  &trans          &trans          &trans          &trans           &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &trans  &kp LA(LC(F1))  &kp LA(LC(F2))  &kp LA(LC(F3))  &kp LA(LC(F4))   &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans  &trans  &kp LA(LC(F5))  &kp LA(LC(F6))  &kp LA(LC(F7))  &kp LC(LA(DEL))  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans          &trans          &trans          &trans           &trans
+&trans  &trans  &trans   &trans   &trans   &trans    &trans  &trans  &trans          &trans          &trans          &trans
             >;
+
+            label = "FN";
         };
 
         layer_10 {
