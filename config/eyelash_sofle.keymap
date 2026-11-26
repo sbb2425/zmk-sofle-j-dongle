@@ -168,14 +168,16 @@
             label = "SYM";
         };
 
-        layer_8 {
+        NAV {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans    &trans    &trans     &trans     &trans       &trans  &trans    &trans     &trans     &trans     &trans  &trans
+&trans   &kp HOME  &kp UP    &kp END    &kp PG_DN  &kp PG_UP    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &kp DEL
+&kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &mkp MB1   &mkp MB2     &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&trans   &trans    &trans    &trans     &trans     &trans       &trans  &trans    &mkp MB4   &mkp MB5   &trans     &trans  &trans
+&trans   &trans    &trans    &trans     &trans     &trans       &trans  &trans    &trans     &trans     &trans     &trans
             >;
+
+            label = "NAV";
         };
 
         layer_9 {
