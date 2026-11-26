@@ -132,14 +132,16 @@
             label = "Game3";
         };
 
-        layer_5 {
+        Game4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N6          &kp N7          &kp N8           &kp N9  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1          &kp N2          &kp N3           &kp N4  &kp N5  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans           &trans  &trans
             >;
+
+            label = "Game4";
         };
 
         layer_6 {
