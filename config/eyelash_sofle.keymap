@@ -144,24 +144,28 @@
             label = "Game4";
         };
 
-        layer_6 {
+        NUM {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans  &kp N0  &trans  &trans    &trans  &trans  &trans  &kp N0  &trans  &trans
             >;
+
+            label = "NUM";
         };
 
-        layer_7 {
+        SYM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans        &trans         &trans            &trans            &trans  &trans             &trans                &trans                 &trans        &trans     &trans
+&trans  &kp GRAVE        &kp TILDE     &kp LESS_THAN  &kp GREATER_THAN  &kp CARET         &trans  &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK  &kp PLUS   &trans
+&trans  &kp AT           &kp HASH      &kp DOLLAR     &kp PERCENT       &kp AMPERSAND     &trans  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH     &kp MINUS  &trans
+&trans  &kp EXCLAMATION  &kp QUESTION  &kp PIPE       &kp COLON         &kp UNDERSCORE    &trans  &kp COMMA          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOT       &kp EQUAL  &trans
+&trans  &trans           &trans        &trans         &trans            &trans            &trans  &trans             &trans                &trans                 &trans        &trans
             >;
+
+            label = "SYM";
         };
 
         layer_8 {
