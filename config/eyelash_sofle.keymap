@@ -120,14 +120,16 @@
             label = "Game2";
         };
 
-        layer_4 {
+        Game3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F5   &kp Y   &kp U   &kp I   &kp O   &kp P        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp H   &kp J   &kp K   &kp L   &kp ENTER    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp N   &kp M   &trans  &trans  &kp BSPC     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "Game3";
         };
 
         layer_5 {
